@@ -48,7 +48,7 @@ describe('concatenation', () => {
 
 
   it('should throw an error if there is an empty string', () => {
-    expect(()=>{ concate ("", "")}).to.throw ('does not accept empty string')
+    expect(()=>{ concate ("", "")}).to.throw ('does not accept empty string for concatenation')
   });
 
 })

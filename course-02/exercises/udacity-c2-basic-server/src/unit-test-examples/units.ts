@@ -16,7 +16,7 @@ export const divide = (a: number, b: number) => {
 // it should throw an error if either of the strings are empty.
 // ensure your function is exported.
 export const concate = (a: string, b: string) => {
-    if (a === "" || b === "")  { throw new Error("does not accept empty string")}
+    if (a === "" || b === "")  { throw new Error("does not accept empty string for concatenation")}
     return a + b;
 }
 
